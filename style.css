@@ -1,0 +1,56 @@
+
+body {
+  background-color: #232931;
+  color: #4ecca3;
+  font-family: 'Montserrat', sans-serif;
+  margin: 40px auto;
+  text-align: center;
+  width: 80%;
+}
+
+.activities-list {
+  color: #FC85AE;
+  display: inline-block;
+  margin: 25px 50px;
+  max-width: 800px;
+}
+
+.btn {
+  background-color: #A1CDF4;
+  border: none;
+  border-radius: 5px;
+  color: #232931;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.btn:hover {
+  background-color: #0162b1;
+  color: #ffffff;
+  transition-duration: .5s;
+}
+
+.btn.active {
+  background-color: #ffffff;
+  color: #0162b1;
+}
+
+.column-l {
+  text-align: left;
+}
+
+.column-r {
+  text-align: right;
+}
+
+.github-link {
+  color: #A1CDF4;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.show {
+  display: block;
+}
