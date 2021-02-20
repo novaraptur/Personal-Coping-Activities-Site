@@ -4,6 +4,7 @@ body {
   color: #4ecca3;
   font-family: 'Montserrat', sans-serif;
   margin: 40px auto;
+  min-width: 450px;
   text-align: center;
   width: 80%;
 }
@@ -51,6 +52,6 @@ body {
   text-decoration: none;
 }
 
-.show {
-  display: block;
+.hidden {
+  display: none;
 }

@@ -15,64 +15,65 @@
   <body>
     <div class="intro">
       <p>This site is a list of coping activities, that I use to destress, deal with depression and anxiety, and also sometimes just deal with boredom.</p>
+      <p>Click "Show All" to show all activities, or click any of the other buttons to filter by tag / category.</p>
     </div>
     <div id="filter">
-      <button class="btn active" onclick="filterSelection('all')">Show All Activities</button>
+      <button class="btn active" onclick="filterObjects('all')">Show All Activities</button>
       <br>
-      <button class="btn" onclick="filterSelection('solo')">Solo Activities</button>
-      <button class="btn" onclick="filterSelection('social')">Social Activities</button>
+      <button class="btn" onclick="filterObjects('solo')">Solo Activities</button>
+      <button class="btn" onclick="filterObjects('social')">Social Activities</button>
       <br>
-      <button class="btn" onclick="filterSelection('romantic')">Romantic Activities</button>
-      <button class="btn" onclick="filterSelection('creative')">Creative Activities</button>
+      <button class="btn" onclick="filterObjects('romantic')">Romantic Activities</button>
+      <button class="btn" onclick="filterObjects('creative')">Creative Activities</button>
       <br>
-      <button class="btn" onclick="filterSelection('productive')">Productive Activites</button>
-      <button class="btn" onclick="filterSelection('active')">Active Activities</button>
+      <button class="btn" onclick="filterObjects('productive')">Productive Activites</button>
+      <button class="btn" onclick="filterObjects('active')">Active Activities</button>
       <br>
-      <button class="btn" onclick="filterSelection('under-an-hour')">Activities Under An Hour</button>
-      <button class="btn" onclick="filterSelection('outdoors')">Outdoor Activities</button>
+      <button class="btn" onclick="filterObjects('under-an-hour')">Activities Under An Hour</button>
+      <button class="btn" onclick="filterObjects('outdoors')">Outdoor Activities</button>
       <br>
-      <button class="btn" onclick="filterSelection('shopping')">Shopping</button>
-      <button class="btn" onclick="filterSelection('animals')">Animal Activities</button>
+      <button class="btn" onclick="filterObjects('shopping')">Shopping</button>
+      <button class="btn" onclick="filterObjects('animals')">Animal Activities</button>
     </div>
     <div class="activities-list column-l">
-        <p class="activity solo">Play video games -- currently Spider-Man PS4</p>
-        <p class="activity solo creative under-an-hour productive">Draw</p>
-        <p class="activity solo active under-an-hour productive">Lift weights</p>
-        <p class="activity social romantic">Going on a date</p>
-        <p class="activity solo">Read a book -- currently Dragonlance Trilogy</p>
-        <p class="activity solo shopping">Buy a new plant</p>
-        <p class="activity social">Play Jackbox with friends or family</p>
+        <p class="hidden activity solo">Play video games -- currently Spider-Man PS4</p>
+        <p class="hidden activity solo creative under-an-hour productive">Draw</p>
+        <p class="hidden activity solo active under-an-hour productive">Lift weights</p>
+        <p class="hidden activity social romantic">Go on a date</p>
+        <p class="hidden activity solo">Read a book -- currently Dragonlance Trilogy</p>
+        <p class="hidden activity solo shopping">Buy a new plant</p>
+        <p class="hidden activity social">Play Jackbox with friends or family</p>
     </div>
     <div class="activities-list column-r">
-      <p class="activity solo active outdoors productive">Practice skateboarding</p>
-      <p class="activity social under-an-hour">Text or call family</p>
-      <p class="activity solo creative productive">Work on personal programming project</p>
-      <p class="activity solo active outdoors productive under-an-hour">Go on a jog</p>
-      <p class="activity solo active productive">Practice kickboxing</p>
-      <p class="activity solo active outdoors">Swim</p>
-      <p class="activity solo productive">Practice driving</p>
+      <p class="hidden activity solo active outdoors productive">Practice skateboarding</p>
+      <p class="hidden activity social under-an-hour">Text or call family</p>
+      <p class="hidden activity solo creative productive">Work on personal programming project</p>
+      <p class="hidden activity solo active outdoors productive under-an-hour">Go on a jog</p>
+      <p class="hidden activity solo active productive">Practice kickboxing</p>
+      <p class="hidden activity solo active outdoors">Swim</p>
+      <p class="hidden activity solo productive">Go driving</p>
     </div>
     <div class="activities-list column-l">
-      <p class="activity social">Invite a friend to dinner / board games</p>
-      <p class="activity solo active outdoors">Going hiking</p>
-      <p class="activity solo shopping">Go thrifting for new clothes</p>
-      <p class="activity animals">Play or cuddle with Tifa</p>
-      <p class="activity solo productive">Do the dishes</p>
-      <p class="activity social outdoors romantic">Go get coffee</p>
+      <p class="hidden activity social">Invite a friend to dinner / board games</p>
+      <p class="hidden activity solo active outdoors">Go hiking</p>
+      <p class="hidden activity solo shopping">Go thrifting for new clothes</p>
+      <p class="hidden activity animals">Play or cuddle with Tifa</p>
+      <p class="hidden activity solo productive">Do the dishes</p>
+      <p class="hidden activity solo social outdoors romantic">Go get coffee</p>
       <p class=""></p>
     </div>
     <div class="activities-list column-r">
-      <p class="activity solo shopping">Getting / making food I don't get to have often</p>
-      <p class="activity solo productive creative under-an-hour">Write</p>
-      <p class="activity solo productive shopping creative">Plan a new tattoo</p>
-      <p class="activity solo productive">Clean a room / the apartment</p>
-      <p class="activity social outdoors romantic">Go to a museum</p>
-      <p class="activity solo outdoors productive">Go to the library</p>
+      <p class="hidden activity solo shopping">Get / make food I don't get to have often</p>
+      <p class="hidden activity solo productive creative under-an-hour">Write</p>
+      <p class="hidden activity solo productive shopping creative">Plan a new tattoo</p>
+      <p class="hidden activity solo productive">Clean a room / the apartment</p>
+      <p class="hidden activity social outdoors romantic">Go to a museum</p>
+      <p class="hidden activity solo outdoors productive">Go to the library</p>
       <p class=""></p>
     </div>
     <footer>
       <a class="github-link" href="https://github.com/novaraptur/Personal-Coping-Activities-Site" target="_blank"><i class="fab fa-github-alt"></i></a>
-      <p>Made by Dean Cook -- last updated Jan 2021</p>
+      <p>Made by Dean Cook -- last updated Feb 2021</p>
     </footer>
     <!--javascript & jQuery scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
