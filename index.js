@@ -5,7 +5,7 @@ filterObjects("all");
 
 function filterObjects(tagName) {
   //fetch all "activity" items from the page and store them in arr1 array
-  var arr1 = document.getElementByClassName("activity");
+  var arr1 = document.getElementsByClassName("activity");
   if (tagName == "all") {
     tagName = "";
   }
