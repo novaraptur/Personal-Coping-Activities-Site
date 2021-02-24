@@ -12,7 +12,7 @@ body {
 .activities-list {
   color: #FC85AE;
   display: inline-block;
-  margin: 25px 50px;
+  margin: 25px auto;
   max-width: 800px;
 }
 
@@ -36,14 +36,6 @@ body {
 .btn.active {
   background-color: #ffffff;
   color: #0162b1;
-}
-
-.column-l {
-  text-align: left;
-}
-
-.column-r {
-  text-align: right;
 }
 
 .github-link {
